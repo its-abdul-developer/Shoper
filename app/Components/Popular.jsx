@@ -7,9 +7,9 @@ const Popular = () => {
     <div className="w-full h-screen  py-10 flex flex-col gap-12 items-center justify-center">
       <div>
         {" "}
-        <h2 className="text-5xl font-semibold">Popular in Women</h2> <hr className="w-[15vw] h-[0.8vh] rounded-lg mx-auto mt-3  bg-[#252525]" />
+        <h2 className="text-5xl font-semibold">Popular in Women</h2> <hr className="w-[15vw] h-[0.5vh] rounded-lg mx-auto mt-3  bg-[#252525]" />
       </div>
-      <div className="w-full flex gap-4 px-20 ">
+      <div className="w-full  flex gap-6 px-20 ">
         {data_product.map((item, i) => (
           <Item
             key={i}
